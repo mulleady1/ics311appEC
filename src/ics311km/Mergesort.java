@@ -3,6 +3,7 @@ package ics311km;
 public class Mergesort {
 	
 	private String[] a;
+	private final String SENTINEL = "SENTINEL";
 
 	public Mergesort(String[] a) {
 		this.a = a;
@@ -21,23 +22,26 @@ public class Mergesort {
 	private void merge(int p, int q, int r) {
 		int n = q - p + 1;
 		int m = r - q;
-		String[] L = new String[n];
-		String[] R = new String[m];
+		String[] L = new String[n+1];
+		String[] R = new String[m+1];
 		for (int i = 0; i < n; i++) {
 			L[i] = a[p + i];
 		}
 		for (int i = 0; i < m; i++) {
-			R[i] = a[q + i];
+			R[i] = a[q + i + 1];
 		}
+		L[L.length-1] = R[R.length-1] = SENTINEL;
 		int i = 0, j = 0;
-		for (int k = p; k <= r; p++) {
-			if (L[i].compareTo(R[j]) <= 0) {
-				a[k] = L[i];
-				i++;
-			}
-			else {
-				a[k] = R[j];
-				j++;
+		for (int k = p; k <= r; k++) {
+			if (!(L[i].equals(SENTINEL) || R[j].equals(SENTINEL))) {
+				if (L[i].compareTo(R[j]) <= 0) {
+					a[k] = L[i];
+					i++;
+				}
+				else {
+					a[k] = R[j];
+					j++;
+				}
 			}
 		}
 	}
