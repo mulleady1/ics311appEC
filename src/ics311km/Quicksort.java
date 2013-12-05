@@ -20,7 +20,7 @@ public class Quicksort {
 	private int partition(int p, int r) {
 		String x = a[r];
 		int i = p - 1;
-		for (int j = p; j < r - 1; j++) {
+		for (int j = p; j < r; j++) {
 			if (a[j].compareTo(x) <= 0) {
 				i++;
 				String temp = a[i];

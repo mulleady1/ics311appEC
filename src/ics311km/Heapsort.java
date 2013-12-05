@@ -1,5 +1,8 @@
 package ics311km;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Heapsort {
 	
 	private String[] a;
@@ -7,42 +10,41 @@ public class Heapsort {
 
 	String[] sort(String[] input) {
 		this.a = input;
-		buildMaxHeap();
-		for (int i = a.length-1; i > 0; i--) {
-			// Swap a[0] with a[i].
-			String temp = a[0];
+		buildMinHeap();
+		List<String> minList = new ArrayList<String>(input.length);
+		for (int i = a.length-1; i >= 0; i--) {
+			minList.add(a[0]);
 			a[0] = a[i];
-			a[i] = temp;
 			this.heapsize--;
-			maxHeapify(0);
+			minHeapify(0);
 		}
-		return a;
+		return (String[])minList.toArray(new String[minList.size()]);
 	}
 	
-	private void buildMaxHeap() { 
+	private void buildMinHeap() { 
 		this.heapsize = a.length;
-		for (int i = (int)Math.floor(a.length / 2); i >= 0; i--) {
-			maxHeapify(i);
+		for (int i = (int)Math.floor(a.length / 2) - 1; i >= 0; i--) {
+			minHeapify(i);
 		}
 	}
 
-	private void maxHeapify(int i) {
+	private void minHeapify(int i) {
 		int l = left(i);
 		int r = right(i);
-		int largest;
-		if (l < heapsize && a[l].compareTo(a[i]) > 0)
-			largest = l;
+		int smallest;
+		if (l < heapsize && a[l].compareTo(a[i]) < 0)
+			smallest = l;
 		else
-			largest = i;
-		if (r < heapsize && a[r].compareTo(a[i]) > 0)
-			largest = r;
-		if (largest != i) {
+			smallest = i;
+		if (r < heapsize && a[r].compareTo(a[i]) < 0)
+			smallest = r;
+		if (smallest != i) {
 			String temp = a[i];
-			a[i] = a[largest];
-			a[largest] = temp;
-			maxHeapify(largest);
+			a[i] = a[smallest];
+			a[smallest] = temp;
+			minHeapify(smallest);
 		}
 	}
-	private int left(int index) { return index * 2; }
-	private int right(int index) { return index * 2 + 1; }
+	private int left(int index) { return index * 2 + 1; }
+	private int right(int index) { return index * 2 + 2; }
 }
