@@ -36,7 +36,7 @@ public class Heapsort {
 			smallest = l;
 		else
 			smallest = i;
-		if (r < heapsize && a[r].compareTo(a[i]) < 0)
+		if (r < heapsize && a[r].compareTo(a[smallest]) < 0)
 			smallest = r;
 		if (smallest != i) {
 			String temp = a[i];
