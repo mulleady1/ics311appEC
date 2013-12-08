@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd src/ && \
+javac -d ../bin/ ics311km/*.java && \
+cd ../bin/ && \
+java -Xss8m ics311km/Driver $* && \
+cd ../

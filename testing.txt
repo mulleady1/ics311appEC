@@ -1,0 +1,39 @@
+File:   testing.txt
+Author: Kyle Mulleady
+
+Input and Results
+-----------------
+I ran the application using the files located in the project description page:
+
+    http://www2.hawaii.edu/~suthers/courses/ics311f13/Projects/Project-1/
+
+I used all input files < 1,000,000 (my computer couldn't handle one million names). For my final
+output table, I ran each sort algorithm three times per input file. Therefore, output.txt contains
+24 tables total.
+
+Analysis
+--------
+
+    HEAP SORT 
+    Heap Sort consistently finished in neither first nor last place: always in the middle. This is
+    because it is an efficient algorithm--in the O(n lg n) category--but it isn't the most efficient
+    due to the variables/constants implicit in the big-O notation. Specifically, Heap Sort runs in
+    O(n + n lg n), where the first n is from the runtime of buildMinHeap().
+
+    INSERTION SORT
+    Insertion Sort consistently came in first place for the sorted input files. This is because this
+    algorithm compares the elements before it swaps them, so with sorted input, it doesn't do any 
+    swaps. In the sorted case, this algorithm runs in O(n) time. However, for the unsorted input, 
+    Insertion Sort came in last place by a long shot for the large inputs (for 100 unsorted names it
+    came in 2nd/3rd place). This is because for unsorted input, this algorithm runs in O(n^2) time.
+
+    MERGE SORT
+    Merge Sort was right there with Heap Sort, coming in 2nd or 3rd place for each input. This is 
+    because this algorithm runs in Θ(n lg n) time.
+
+    QUICK SORT
+    Quick Sort consistently came in last place for the sorted input files and first place for the unsorted 
+    input. This algorithm runs in O(n^2) worst case; Θ(n lg n) best case. The 'pivot' in the partition() 
+    helper function pivots on the last element in the input. With unsorted input, the pivot creates balanced 
+    subarrays, offering efficient runtime. However with sorted input, the pivot creates largely unbalanced 
+    subarrays, causing worst case runtime.

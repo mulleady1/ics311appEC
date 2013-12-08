@@ -34,7 +34,7 @@ public class Driver {
 		String first = a[0], last = a[a.length-1];
 		// Print results.
 		log(SEP);
-		log("Sort Test: " + a.length + " keys");
+		log("Sort Test: " + a.length + " keys (filename: " + filename + ")");
 		log(" Heap Sort:      " + runtime + " ns; First key: " + first + "; Last key: " + last);
 		
 		// Load array for insertion sort.
@@ -68,7 +68,7 @@ public class Driver {
 		first = a[0]; last = a[a.length-1];
 		// Print results.
 		log(" Quick Sort:     " + runtime + " ns; First key: " + first + "; Last key: " + last);
-		log("\n");
+		log(SEP + "\n");
 	}
 	
 	static String[] loadFile(String filename) {
@@ -83,7 +83,7 @@ public class Driver {
 			br.close();
 		}
 		catch (IOException e) {
-			log("IO Error.");
+			e.printStackTrace();
 			System.exit(1);
 		}
 		// Return array version of list.

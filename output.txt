@@ -1,0 +1,192 @@
+--------------------------------------------------------------------------------
+Sort Test: 100 keys (filename: names_sorted_100.txt)
+ Heap Sort:      809000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Insertion Sort: 469000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Merge Sort:     439000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Quick Sort:     1232000 ns; First key: Abraham Keller; Last key: Winston Davis
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 100 keys (filename: names_sorted_100.txt)
+ Heap Sort:      420000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Insertion Sort: 40000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Merge Sort:     641000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Quick Sort:     1800000 ns; First key: Abraham Keller; Last key: Winston Davis
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 100 keys (filename: names_sorted_100.txt)
+ Heap Sort:      580000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Insertion Sort: 40000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Merge Sort:     458000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Quick Sort:     1865000 ns; First key: Abraham Keller; Last key: Winston Davis
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 1000 keys (filename: names_sorted_1000.txt)
+ Heap Sort:      5134000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Insertion Sort: 137000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Merge Sort:     5507000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Quick Sort:     5672000 ns; First key: Abel Andrews; Last key: Yvette Neal
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 1000 keys (filename: names_sorted_1000.txt)
+ Heap Sort:      704000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Insertion Sort: 97000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Merge Sort:     1384000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Quick Sort:     3275000 ns; First key: Abel Andrews; Last key: Yvette Neal
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 1000 keys (filename: names_sorted_1000.txt)
+ Heap Sort:      444000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Insertion Sort: 148000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Merge Sort:     1357000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Quick Sort:     3301000 ns; First key: Abel Andrews; Last key: Yvette Neal
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 10000 keys (filename: names_sorted_10000.txt)
+ Heap Sort:      5322000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Insertion Sort: 771000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Merge Sort:     7439000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Quick Sort:     363085000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 10000 keys (filename: names_sorted_10000.txt)
+ Heap Sort:      3956000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Insertion Sort: 1267000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Merge Sort:     3435000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Quick Sort:     357066000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 10000 keys (filename: names_sorted_10000.txt)
+ Heap Sort:      2936000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Insertion Sort: 167000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Merge Sort:     2561000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Quick Sort:     356477000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 100000 keys (filename: names_sorted_100000.txt)
+ Heap Sort:      45811000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Insertion Sort: 1950000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Merge Sort:     42641000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Quick Sort:     47298456000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 100000 keys (filename: names_sorted_100000.txt)
+ Heap Sort:      43785000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Insertion Sort: 1967000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Merge Sort:     92597000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Quick Sort:     39784612000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 100000 keys (filename: names_sorted_100000.txt)
+ Heap Sort:      45793000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Insertion Sort: 1933000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Merge Sort:     35138000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Quick Sort:     39894542000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 100 keys (filename: names_unsorted_100.txt)
+ Heap Sort:      18000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Insertion Sort: 17000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Merge Sort:     23000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Quick Sort:     38000 ns; First key: Abraham Keller; Last key: Winston Davis
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 100 keys (filename: names_unsorted_100.txt)
+ Heap Sort:      16000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Insertion Sort: 14000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Merge Sort:     21000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Quick Sort:     11000 ns; First key: Abraham Keller; Last key: Winston Davis
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 100 keys (filename: names_unsorted_100.txt)
+ Heap Sort:      16000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Insertion Sort: 14000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Merge Sort:     21000 ns; First key: Abraham Keller; Last key: Winston Davis
+ Quick Sort:     10000 ns; First key: Abraham Keller; Last key: Winston Davis
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 1000 keys (filename: names_unsorted_1000.txt)
+ Heap Sort:      243000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Insertion Sort: 1376000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Merge Sort:     284000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Quick Sort:     168000 ns; First key: Abel Andrews; Last key: Yvette Neal
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 1000 keys (filename: names_unsorted_1000.txt)
+ Heap Sort:      244000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Insertion Sort: 1384000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Merge Sort:     284000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Quick Sort:     163000 ns; First key: Abel Andrews; Last key: Yvette Neal
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 1000 keys (filename: names_unsorted_1000.txt)
+ Heap Sort:      244000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Insertion Sort: 1385000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Merge Sort:     281000 ns; First key: Abel Andrews; Last key: Yvette Neal
+ Quick Sort:     163000 ns; First key: Abel Andrews; Last key: Yvette Neal
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 10000 keys (filename: names_unsorted_10000.txt)
+ Heap Sort:      4212000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Insertion Sort: 254665000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Merge Sort:     4365000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Quick Sort:     2748000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 10000 keys (filename: names_unsorted_10000.txt)
+ Heap Sort:      4232000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Insertion Sort: 254558000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Merge Sort:     4197000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Quick Sort:     2723000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 10000 keys (filename: names_unsorted_10000.txt)
+ Heap Sort:      4239000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Insertion Sort: 243618000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Merge Sort:     4197000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+ Quick Sort:     2734000 ns; First key: Aaron Bowen; Last key: Zachary Waters
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 100000 keys (filename: names_unsorted_100000.txt)
+ Heap Sort:      107860000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Insertion Sort: 68176543000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Merge Sort:     89813000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Quick Sort:     50823000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 100000 keys (filename: names_unsorted_100000.txt)
+ Heap Sort:      104815000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Insertion Sort: 67242413000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Merge Sort:     79386000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Quick Sort:     49096000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Sort Test: 100000 keys (filename: names_unsorted_100000.txt)
+ Heap Sort:      100449000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Insertion Sort: 70241947000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Merge Sort:     78936000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+ Quick Sort:     50054000 ns; First key: Aaron Abbott; Last key: Zachary Yang
+--------------------------------------------------------------------------------
+

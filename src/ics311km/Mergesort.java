@@ -33,15 +33,15 @@ public class Mergesort {
 		L[L.length-1] = R[R.length-1] = SENTINEL;
 		int i = 0, j = 0;
 		for (int k = p; k <= r; k++) {
-			if (!(L[i].equals(SENTINEL) || R[j].equals(SENTINEL))) {
-				if (L[i].compareTo(R[j]) <= 0) {
+			if (L[i].compareTo(R[j]) <= 0 || R[j].equals(SENTINEL)) {
+				if (!L[i].equals(SENTINEL)) {
 					a[k] = L[i];
 					i++;
 				}
-				else {
-					a[k] = R[j];
-					j++;
-				}
+			}
+			else if (!R[j].equals(SENTINEL)) {
+				a[k] = R[j];
+				j++;
 			}
 		}
 	}
